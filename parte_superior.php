@@ -1,10 +1,9 @@
-<!DOCTYPE HTML>
-<HTML lang="Spanish">
+<!DOCTYPE html>
+<html lang="Spanish">
 <head>
     <meta charset="utf-8">
     <meta name="Proyecto Tercera" content="Proyecto Tercera">
-    <link real="stylesheet" href="./css/main.css"
-    
+    <link real="stylesheet" href="./css/main.css">
 </head>
 
 <menu>
@@ -13,7 +12,9 @@
 </div>
 
 <div class="menu-down">
+
 <div class="menu-izquierda">
+
     <a href="">News</a>
     <a href="">Discord Webhook</a>
     <a href="">Database</a>
@@ -24,5 +25,6 @@
 
 </div>
 <div class="menu-derecha">
+
 
 </menu>

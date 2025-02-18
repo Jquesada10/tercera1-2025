@@ -4,17 +4,21 @@
 }
 
 menu{
-background-color: aqua;
+background-color: #626262;
 width: 100%;
 height: 300px;
 border: 1px solid #bbb;
 }
 
 .menu-up{
+
     height: 50%;
     border: 1px solid #626262;
-    display:flex
-    
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 50px;
 
 }
 
@@ -31,17 +35,14 @@ border: 1px solid #bbb;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around
+    justify-content:space-around;
 }
 .menu-izquierda a{
     text-decoration: none;
     color: #bbb;
     text-transform: uppercase
 }
-.menu-izquierda a:hover
-
-.menu-derecha{
-
-
-
+.menu-izquierda a:hover {
+    color: #fff;
 }
+.menu-derecha{}
