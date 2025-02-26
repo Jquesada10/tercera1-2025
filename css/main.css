@@ -4,10 +4,10 @@
 }
 
 menu{
-background-color: #626262;
+background-color: black;
 width: 100%;
 height: 300px;
-border: 1px solid #bbb;
+border: 1px solid #21e1e7;
 }
 
 .menu-up{
@@ -30,6 +30,7 @@ border: 1px solid #bbb;
 }
 
 .menu-izquierda{
+    background-color: #626262;
     padding-left: 50px;
     width: 700px;
     display: flex;
@@ -45,4 +46,46 @@ border: 1px solid #bbb;
 .menu-izquierda a:hover {
     color: #fff;
 }
-.menu-derecha{}
+.menu-derecha{
+    text-decoration: none;
+    color: #bbb;
+    text-transform: uppercase
+}
+
+.accordion-item:hover{
+transform: scale(1.05);
+border: 1px solid black;
+}
+
+.accordion-tittle{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.accordion-desc{
+    display: none;
+}
+
+.accordion-tittle .tab-activate {
+    font-size: 30px;
+    pointer-events: visible;
+}
+
+.tab-activate .accordion-desc {
+    width: 100%;
+    background-color: gainsboro;
+    height: 50px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 ;
+
+}

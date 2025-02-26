@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="Spanish">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="Proyecto Tercera" content="Proyecto Tercera">
     <link real="stylesheet" href="./css/main.css">
 </head>
 
-<menu>
+<menu> 
+
+<div class="main-accordion-container"></div>
+
 <div class="menu-up">
-<img src="./img/new-rocket.png"alt="" height="55">
+<img src="./img/new-rocket.jpg"alt="" height="55">
+</a>
 </div>
 
 <div class="menu-down">
