@@ -9,14 +9,14 @@
 <menu> 
 
 <div class="main-accordion-container"></div>
-
 <div class="menu-up">
+</div>
 <img src="./img/new-rocket.jpg"alt="" height="55">
 </a>
 </div>
 
 <div class="menu-down">
-
+    <div class="menu-container"
 <div class="menu-izquierda">
 
     <a href="">News</a>
@@ -28,7 +28,12 @@
     <a href="">Premium</a>
 
 </div>
+<div class="hamburguer-icon">
+<span></
+</div>
+</div>
 <div class="menu-derecha">
-
-
+<a href="">Login</a>
+</div>
+</div>
 </menu>
